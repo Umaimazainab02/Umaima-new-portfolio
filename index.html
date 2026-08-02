@@ -158,29 +158,30 @@
 
 
     <!------Form----->
-    <div
-        class="flex flex-col   px-4 md:px-30 lg:px-70 p-6 max-w-auto mx-5 md:mx-5 lg:mx-23 mt-12 rounded-2xl bg-[linear-gradient(135deg,_#F8CEED_0%,_#EFDFFF_45%,_#EFDFFF_70%,_#DDDDFF_100%)] ">
-        <h1 class="text-4xl font-medium pt-10">Get in touch</h1>
-        <p
-            class="max-w-3xl mx-auto pt-0 md:pt-4 lg:pt-6 text-sm md:text-sm lg:text-lg text-gray-700">
+    <div id="form1"
+        class="flex flex-col   px-8 md:px-30 lg:px-70 p-6 max-w-auto mx-5 md:mx-5 lg:mx-23 mt-12 rounded-2xl bg-[linear-gradient(135deg,_#F8CEED_0%,_#EFDFFF_45%,_#EFDFFF_70%,_#DDDDFF_100%)] ">
+        <h1 id="form2" class="text-4xl font-medium pt-10 pb-5">Get in touch</h1>
+        <p id="form3" class="max-w-3xl mx-auto pt-0 md:pt-4 lg:pt-6 text-sm md:text-sm lg:text-lg text-gray-700">
             Looking for a creative partner for your next project? I'm currently available for freelance work and would
             love to hear about your ideas. Whether you need branding, web design, or print materials, let's collaborate
             to bring your vision to life.</p>
         <div class="flex flex-col  gap-4 mt-6 w-full max-w-3xl">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required class="border-2 bg-white h-13 border-white rounded-lg">
+            <label for="name" id="form4">Name</label>
+            <input type="text" id="name" name="name" required class="  h-13  bg-white rounded-lg">
         </div>
         <div class="flex flex-col gap-4 mt-4 w-full max-w-3xl">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required class=" h-13 border-2 border-white bg-white  rounded-lg">
+            <label for="email" id="form5">Email</label>
+            <input type="email" id="email" name="email" required class=" h-13  bg-white   rounded-lg">
         </div>
         <div class="flex flex-col gap-4 mt-4 w-full max-w-3xl">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required class="h-32 border-2 border-white bg-white rounded-lg"></textarea>
+            <label for="message" id="form6">Message</label>
+            <textarea id="message" name="message" required class="h-32 bg-white rounded-lg"></textarea>
         </div>
-        <button type="submit" class="bg-purple-700 hover:bg-blue-700 self-start text-white font-bold py-4 px-4 rounded-lg text-left mt-2 md:mt-4 lg:mt-6">
+        <button type="submit"
+            class=" bg-purple-700 hover:bg-blue-700 w-full lg:w-fit lg:self-start text-white font-bold py-4 px-4 rounded-lg text-left mt-4 md:mt-5 lg:mt-6"
+            id="form7">
             Send Message
-         </button>
+        </button>
     </div>
     <script src="app.js"></script>
 </body>

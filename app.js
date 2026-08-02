@@ -17,12 +17,22 @@ sun1.addEventListener("click", function () {
     document.getElementById("project4").style.background = "#18181B";
     document.getElementById("project5").style.background = "#18181B";
     document.getElementById("project6").style.background = "#18181B";
-        document.getElementById("name1").style.color = "white";
-        document.getElementById("name2").style.color = "white";
-        document.getElementById("name3").style.color = "white";
-        document.getElementById("name4").style.color = "white";
-        document.getElementById("name5").style.color = "white";
-        document.getElementById("name6").style.color = "white";
+    document.getElementById("name1").style.color = "white";
+    document.getElementById("name2").style.color = "white";
+    document.getElementById("name3").style.color = "white";
+    document.getElementById("name4").style.color = "white";
+    document.getElementById("name5").style.color = "white";
+    document.getElementById("name6").style.color = "white";
+    document.getElementById("form1").style.background = "purple";
+    document.getElementById("form2").style.color = "white";
+    document.getElementById("form3").style.color = "white";
+    document.getElementById("form4").style.color = "white";
+    document.getElementById("form5").style.color = "white";
+    document.getElementById("form6").style.color = "white";
+    document.getElementById("name").style.background = "rgba(0, 0, 0, 0.4)";
+    document.getElementById("email").style.background = "rgba(0, 0, 0, 0.4)";
+    document.getElementById("message").style.background = "rgba(0, 0, 0, 0.4)";
+    document.getElementById("form7").style.background = "black";
 
 });
 
@@ -40,11 +50,22 @@ moon1.addEventListener("click", function () {
     document.getElementById("project4").style.background = "white";
     document.getElementById("project5").style.background = "white";
     document.getElementById("project6").style.background = "white";
-        document.getElementById("name1").style.color = "black";
-        document.getElementById("name2").style.color = "black";
-        document.getElementById("name3").style.color = "black";
-        document.getElementById("name4").style.color = "black";
-        document.getElementById("name5").style.color = "black";
-        document.getElementById("name6").style.color = "black";
+    document.getElementById("name1").style.color = "black";
+    document.getElementById("name2").style.color = "black";
+    document.getElementById("name3").style.color = "black";
+    document.getElementById("name4").style.color = "black";
+    document.getElementById("name5").style.color = "black";
+    document.getElementById("name6").style.color = "black";
+    document.getElementById("form1").style.background =
+        "linear-gradient(135deg, #F8CEED 0%, #EFDFFF 45%, #EFDFFF 70%, #DDDDFF 100%)";
+    document.getElementById("form2").style.color = "black";
+    document.getElementById("form3").style.color = "black";
+    document.getElementById("form4").style.color = "black";
+    document.getElementById("form5").style.color = "black";
+    document.getElementById("form6").style.color = "black";
+    document.getElementById("name").style.background = "white";
+    document.getElementById("email").style.background = "white";
+    document.getElementById("message").style.background = "white";
+    document.getElementById("form7").style.background = "#8C5607";
 
 })

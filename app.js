@@ -66,6 +66,18 @@ moon1.addEventListener("click", function () {
     document.getElementById("name").style.background = "white";
     document.getElementById("email").style.background = "white";
     document.getElementById("message").style.background = "white";
-    document.getElementById("form7").style.background = "#8C5607";
+    document.getElementById("form7").style.background = "purple";
 
+})
+
+let name1=document.getElementById("name");
+let email1=document.getElementById("email");
+let message1=document.getElementById("message");
+let submit=document.getElementById("form1");
+submit.addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.getElementById("submitted").innerHTML = "Submit successfully!";
+    alert("Form submitted successfully!");
+
+    submit.reset();
 })

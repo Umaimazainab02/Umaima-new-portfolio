@@ -44,12 +44,12 @@ moon1.addEventListener("click", function () {
     document.getElementById("colorchng").style.background =
         "linear-gradient(980deg, #FEDDA0 0%, #F9F7DB 45%, #F9F7DB 70%, #F7DA70 100%)";
     document.getElementById("textcolor").style.color = "gray";
-    document.getElementById("project1").style.background = "white";
-    document.getElementById("project2").style.background = "white";
-    document.getElementById("project3").style.background = "white";
-    document.getElementById("project4").style.background = "white";
-    document.getElementById("project5").style.background = "white";
-    document.getElementById("project6").style.background = "white";
+    document.getElementById("project1").style.background = "#F3F4F6";
+    document.getElementById("project2").style.background = "#F3F4F6";
+    document.getElementById("project3").style.background = "#F3F4F6";
+    document.getElementById("project4").style.background = "#F3F4F6";
+    document.getElementById("project5").style.background = "#F3F4F6";
+    document.getElementById("project6").style.background = "#F3F4F6";
     document.getElementById("name1").style.color = "black";
     document.getElementById("name2").style.color = "black";
     document.getElementById("name3").style.color = "black";

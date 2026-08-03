@@ -264,20 +264,17 @@
   .mr-5 {
     margin-right: calc(var(--spacing) * 5);
   }
-  .mr-9 {
-    margin-right: calc(var(--spacing) * 9);
-  }
-  .mr-13 {
-    margin-right: calc(var(--spacing) * 13);
-  }
   .mr-15 {
     margin-right: calc(var(--spacing) * 15);
   }
-  .mr-16 {
-    margin-right: calc(var(--spacing) * 16);
+  .mr-20 {
+    margin-right: calc(var(--spacing) * 20);
   }
-  .ml-1 {
-    margin-left: var(--spacing);
+  .mr-22 {
+    margin-right: calc(var(--spacing) * 22);
+  }
+  .ml-0 {
+    margin-left: 0px;
   }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
@@ -287,21 +284,6 @@
   }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
-  }
-  .ml-8 {
-    margin-left: calc(var(--spacing) * 8);
-  }
-  .ml-12 {
-    margin-left: calc(var(--spacing) * 12);
-  }
-  .ml-14 {
-    margin-left: calc(var(--spacing) * 14);
-  }
-  .ml-15 {
-    margin-left: calc(var(--spacing) * 15);
-  }
-  .ml-16 {
-    margin-left: calc(var(--spacing) * 16);
   }
   .ml-18 {
     margin-left: calc(var(--spacing) * 18);
@@ -372,9 +354,6 @@
   }
   .justify-end {
     justify-content: flex-end;
-  }
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
@@ -506,9 +485,6 @@
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
   }
-  .text-blue-400 {
-    color: var(--color-blue-400);
-  }
   .text-blue-500 {
     color: var(--color-blue-500);
   }
@@ -520,9 +496,6 @@
   }
   .text-pink-400 {
     color: var(--color-pink-400);
-  }
-  .text-pink-500 {
-    color: var(--color-pink-500);
   }
   .text-purple-500 {
     color: var(--color-purple-500);
@@ -566,12 +539,6 @@
     --tw-duration: 300ms;
     transition-duration: 300ms;
   }
-  .text-shadow-mauve-400 {
-    --tw-text-shadow-color: oklch(71.1% 0.019 323.02);
-    @supports (color: color-mix(in lab, red, red)) {
-      --tw-text-shadow-color: color-mix(in oklab, var(--color-mauve-400) var(--tw-text-shadow-alpha), transparent);
-    }
-  }
   @media (hover: hover) {
     .group-hover\:translate-y-0:is(:where(.group):hover *) {
       --tw-translate-y: 0px;
@@ -594,9 +561,6 @@
     }
     .hover\:bg-blue-700:hover {
       background-color: var(--color-blue-700);
-    }
-    .hover\:text-blue-500:hover {
-      color: var(--color-blue-500);
     }
     .hover\:text-blue-600:hover {
       color: var(--color-blue-600);
@@ -630,17 +594,29 @@
     .md\:mt-5 {
       margin-top: calc(var(--spacing) * 5);
     }
+    .md\:mr-0 {
+      margin-right: 0px;
+    }
     .md\:mr-2 {
       margin-right: calc(var(--spacing) * 2);
     }
     .md\:mr-4 {
       margin-right: calc(var(--spacing) * 4);
     }
+    .md\:mr-5 {
+      margin-right: calc(var(--spacing) * 5);
+    }
     .md\:mr-14 {
       margin-right: calc(var(--spacing) * 14);
     }
+    .md\:mr-16 {
+      margin-right: calc(var(--spacing) * 16);
+    }
     .md\:ml-2 {
       margin-left: calc(var(--spacing) * 2);
+    }
+    .md\:ml-18 {
+      margin-left: calc(var(--spacing) * 18);
     }
     .md\:h-70 {
       height: calc(var(--spacing) * 70);
@@ -700,6 +676,9 @@
     }
     .lg\:mr-12 {
       margin-right: calc(var(--spacing) * 12);
+    }
+    .lg\:mr-16 {
+      margin-right: calc(var(--spacing) * 16);
     }
     .lg\:mr-20 {
       margin-right: calc(var(--spacing) * 20);
@@ -793,15 +772,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-text-shadow-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-text-shadow-alpha {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 100%;
-}
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -828,8 +798,6 @@
       --tw-font-weight: initial;
       --tw-outline-style: solid;
       --tw-duration: initial;
-      --tw-text-shadow-color: initial;
-      --tw-text-shadow-alpha: 100%;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;

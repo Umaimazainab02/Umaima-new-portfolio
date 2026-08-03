@@ -70,14 +70,20 @@ moon1.addEventListener("click", function () {
 
 })
 
-let name1=document.getElementById("name");
-let email1=document.getElementById("email");
-let message1=document.getElementById("message");
-let submit=document.getElementById("form1");
+let name1 = document.getElementById("name");
+let email1 = document.getElementById("email");
+let message1 = document.getElementById("message");
+let submit = document.getElementById("form1");
 submit.addEventListener("submit", function (e) {
     e.preventDefault();
+    localStorage.setItem("name", name1.value);
+    localStorage.setItem("email", email1.value);
+    localStorage.setItem("message", message1.value);
     document.getElementById("submitted").innerHTML = "Submit successfully!";
     alert("Form submitted successfully!");
+    console.log("form submitted successfully!");
 
     submit.reset();
+    
+
 })

@@ -32,7 +32,7 @@ sun1.addEventListener("click", function () {
     document.getElementById("name").style.background = "rgba(0, 0, 0, 0.4)";
     document.getElementById("email").style.background = "rgba(0, 0, 0, 0.4)";
     document.getElementById("message").style.background = "rgba(0, 0, 0, 0.4)";
-    document.getElementById("form7").style.background = "black";
+    document.getElementById("form7").style.background = "purple";
 
 });
 
